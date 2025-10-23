@@ -34,15 +34,7 @@ A proposta é **entender as tendências do mercado de games** a partir dos dados
    - Plataforma com mais lançamentos  
    - Criação da coluna `Década` (Anos 90, 2000 e 2010)
 
-3. **Visualizações**  
-   - Gráfico de barras: *Top 5 Gêneros Mais Vendidos*  
-![Gráfico de Gêneros](resultados/grafico_generos_dark.png)
-
-   - Gráfico de linhas: *Lançamentos por Ano*
-![Gráfico de Lançamentos](resultados/grafico_lancamentos_dark.png)
-
-
-4. **Conclusão**  
+3. **Conclusão**  
    - Interpretação dos resultados e identificação das principais **tendências do mercado**.
 
 ---
@@ -83,25 +75,26 @@ A proposta é **entender as tendências do mercado de games** a partir dos dados
 
 Acesse a pasta do projeto:
 
+   ```bash
 cd Case1_analise_games
-
+```
 
 (Opcional) Crie e ative o ambiente virtual:
-
+   ```bash
 python -m venv .venv
 source .venv/bin/activate   # Linux ou macOS
 .venv\Scripts\activate      # Windows
-
+```
 
 Instale as dependências:
-
+   ```bash
 pip install pandas matplotlib seaborn
-
+```
 
 Execute o script principal:
-
+   ```bash
 python analise_games.py
-
+```
 
 Os resultados serão gerados na pasta resultados/, incluindo:
 
@@ -111,4 +104,15 @@ grafico_lancamentos_dark.png
 
 tabela_completa.html
 
-✨ Desenvolvido por Raquel Joana da Silva
+###  Autora
+
+**Raquel Joana da Silva**  
+Estudante de Ciências da Computação — UNINOVE  
+Foco em **Inteligência Artificial**  
+🔗 [LinkedIn](www.linkedin.com/in/raquel-joana-da-silva-75406bb0)
+
+---
+
+## 🏷️ Licença
+
+Este projeto é de uso **educacional e demonstrativo**, sem fins comerciais.
